@@ -10,7 +10,7 @@
 set -euo pipefail
 
 # 1) EDIT THIS once you've pushed the repo (or override with RESKIN_REPO env):
-REPO_URL="${RESKIN_REPO:-https://github.com/Xactoblade/reskin-kit.git}"
+REPO_URL="${RESKIN_REPO:-https://github.com/Capsule-design/reskin-kit.git}"
 BRANCH="${RESKIN_BRANCH:-main}"
 
 if [[ "$REPO_URL" == *CHANGE-ME* ]]; then
